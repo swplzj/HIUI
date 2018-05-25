@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		B1E1680120B7FD6C00615532 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B1E1680020B7FD6C00615532 /* AppDelegate.m */; };
-		B1E1680420B7FD6C00615532 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B1E1680320B7FD6C00615532 /* ViewController.m */; };
+		B1E1680420B7FD6C00615532 /* SystemFontsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B1E1680320B7FD6C00615532 /* SystemFontsViewController.m */; };
 		B1E1680720B7FD6C00615532 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1E1680520B7FD6C00615532 /* Main.storyboard */; };
 		B1E1680920B7FD6D00615532 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B1E1680820B7FD6D00615532 /* Assets.xcassets */; };
 		B1E1680C20B7FD6D00615532 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1E1680A20B7FD6D00615532 /* LaunchScreen.storyboard */; };
@@ -38,8 +38,8 @@
 		B1E167FC20B7FD6C00615532 /* HIUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HIUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1E167FF20B7FD6C00615532 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B1E1680020B7FD6C00615532 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		B1E1680220B7FD6C00615532 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		B1E1680320B7FD6C00615532 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B1E1680220B7FD6C00615532 /* SystemFontsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SystemFontsViewController.h; sourceTree = "<group>"; };
+		B1E1680320B7FD6C00615532 /* SystemFontsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SystemFontsViewController.m; sourceTree = "<group>"; };
 		B1E1680620B7FD6C00615532 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B1E1680820B7FD6D00615532 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B1E1680B20B7FD6D00615532 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -103,8 +103,8 @@
 			children = (
 				B1E167FF20B7FD6C00615532 /* AppDelegate.h */,
 				B1E1680020B7FD6C00615532 /* AppDelegate.m */,
-				B1E1680220B7FD6C00615532 /* ViewController.h */,
-				B1E1680320B7FD6C00615532 /* ViewController.m */,
+				B1E1680220B7FD6C00615532 /* SystemFontsViewController.h */,
+				B1E1680320B7FD6C00615532 /* SystemFontsViewController.m */,
 				B1E1680520B7FD6C00615532 /* Main.storyboard */,
 				B1E1680820B7FD6D00615532 /* Assets.xcassets */,
 				B1E1680A20B7FD6D00615532 /* LaunchScreen.storyboard */,
@@ -262,7 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B1E1680420B7FD6C00615532 /* ViewController.m in Sources */,
+				B1E1680420B7FD6C00615532 /* SystemFontsViewController.m in Sources */,
 				B1E1680F20B7FD6D00615532 /* main.m in Sources */,
 				B1E1680120B7FD6C00615532 /* AppDelegate.m in Sources */,
 			);
@@ -434,7 +434,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2K6U98X7AH;
 				INFOPLIST_FILE = HIUI/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -450,7 +452,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2K6U98X7AH;
 				INFOPLIST_FILE = HIUI/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
